@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>updater</title>
+        <title>tvyiutnhisokewt</title>
+        <link href="assets/icon.ico" rel="icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <link href="assets/styles.css" rel="stylesheet">
@@ -12,14 +13,17 @@
     </head>
     <body>
         <div class="container-lg">
-            
+            <div style="margin-top: 2em;">
+                <svg fill="#ffffff" width="50px" height="50px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M448,224H380a128,128,0,0,0-247.9,0H64a32,32,0,0,0,0,64h68.05A128,128,0,0,0,380,288H448a32,32,0,0,0,0-64ZM256,320a64,64,0,1,1,64-64A64.07,64.07,0,0,1,256,320Z"/></svg>
+                <h3 id="latest-commit"></h3>
+            </div>
             <code class="text-white-50">
                 <br>
                 fastboot flash boot boot.img<br>
                 fastboot flash dtbo dtbo.img<br>
                 fastboot flash vendor_dlkm vendor_dlkm.img [Pixel 6 or later, or devices shipped with vendor_dlkm]<br>
                 fastboot flash vendor_boot vendor_boot.img [Pixel 6 or later, or devices shipped with vendor_boot]<br><br>
-                [Reboot to recovery: For Pixel devices, use the volume as to navigate to recovery mode, then press power a.]<br>
+                [Reboot to recovery: For Pixel devices, use the volume as to navigate to recovery mode, then press power button.]<br>
                 [Reboot to recovery: For other devices shipped with recovery partititon] fastboot reboot recovery<br><br>
                 adb sideload EvolutionX-<...>.zip<br>
             </code>

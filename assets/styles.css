@@ -16,8 +16,9 @@ body {
 #lg {
     color: white;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 #lg:hover {
-    color: #6b7280;
+    filter: brightness(.7);
 }
